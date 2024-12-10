@@ -51,7 +51,7 @@ spec:
       # The project the application belongs to.
       project: default
 
-    sources:
+    sources: 
     - repoURL: https://kostis-codefresh.github.io/multi-sources-example
         chart: my-chart
         targetRevision: '0.1.0'
