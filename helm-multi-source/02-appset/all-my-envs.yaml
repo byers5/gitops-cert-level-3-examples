@@ -25,6 +25,17 @@ spec:
         region: us
         type: non-prod  
         version: staging       
+
+      - env: integration-gpu
+        region: us
+        type: non-prod  
+        version: qa  
+
+      - env: integration-non-gpu
+        region: us
+        type: non-prod  
+        version: qa  
+
       - env: prod-eu
         region: eu  
         type: prod  
